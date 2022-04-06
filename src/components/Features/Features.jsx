@@ -13,6 +13,16 @@ const Features = () => {
             <button>Speedy Searching</button>
             <button>Easy Sharing</button>
         </div>
+        <div className='features-section-info'>
+          <div className='features-section-image-wrapper'>
+            <img src='images/illustration-features-tab-1.svg' />
+          </div>
+          <div className='features-section-content'>
+            <h1>Bookmark in one click</h1>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+            <button>More info</button>
+          </div>
+        </div>
     </div>
   )
 }

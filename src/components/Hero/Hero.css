@@ -25,6 +25,7 @@
 .hero-info p {
     margin-top: -5px;
     color: var(--neutral-color-grey);
+    line-height: 25px;
 }
 
 .hero-info-buttons {

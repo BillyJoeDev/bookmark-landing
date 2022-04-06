@@ -1,0 +1,103 @@
+.download-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.download-wrapper-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 27%;
+}
+
+.download-wrapper-header h1 {
+    color: var(--neutral-color-blue);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.download-wrapper-header p {
+    margin-top: -5px;
+    color: var(--neutral-color-grey);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.downloads-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.download {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(247, 247, 247, 1);
+    box-shadow: 1px 3px 10px var(--neutral-color-grey);
+    margin: 0 20px;
+}
+
+.download.two {
+    margin-top: 80px;
+}
+
+.download.three {
+    margin-top: 140px;
+}
+
+.download-logo {
+    padding: 15px;
+}
+
+.download h1 {
+    font-size: 22px;
+    color: var(--neutral-color-blue);
+    font-weight: 500;
+}
+
+.download h1 {
+    color: var(--neutral-color-blue);
+    font-weight: 500;
+}
+
+.download p {
+    margin-top: -5px;
+    color: var(--neutral-color-grey);
+    font-size: 16px;
+}
+
+.download button {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--primary-color-blue);
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.download button:hover {
+    background-color: #fff;
+    color: var(--primary-color-blue);
+    border: 2px solid var(--primary-color-blue);
+}
+
+.download-dots {
+    color: var(--neutral-color-blue);
+    padding: 20px 0 30px 0;
+    filter: brightness(5%);
+}
