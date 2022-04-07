@@ -24,14 +24,14 @@
 .contact-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 20px;
 }
 
 .contact-container input {
     border:none;
     outline: none;
-    font-size: 16px;
+    font-size: 14px;
     padding: 20px 80px 20px 20px;
     border-radius: 5px;
 }
@@ -51,4 +51,22 @@
     background-color: white;
     color: var(--primary-color-red);
     border: 2px solid var(--primary-color-red);
+}
+
+.contact-container input.error {
+    border: 2px solid var(--primary-color-red);
+    border-bottom: 30px solid var(--primary-color-red);
+    padding: 20px 80px 20px 20px;
+}
+
+.contact-error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-error-container i {
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 13px;
 }
