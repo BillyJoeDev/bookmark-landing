@@ -11,6 +11,10 @@
     margin-right: 581px;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 .navbar-links {
     display: flex;
     flex-direction: row;
@@ -51,4 +55,19 @@
     color: var(--primary-color-red);
     border: 2px solid var(--primary-color-red);
     background-color: transparent;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .mobile-nav {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-wrapper img {
+        margin-right: 0;
+    }
 }

@@ -101,3 +101,38 @@
     padding: 20px 0 30px 0;
     filter: brightness(5%);
 }
+
+@media screen and (max-width: 760px) {
+    .download-wrapper-header {
+        width: 80%;
+    }
+
+    .download-wrapper-header h1 {
+        font-size: 20px;
+    }
+
+    .download-wrapper-header p {
+        font-size: clamp(12px, 3.8vw, 16px);
+    }
+
+    .downloads-wrapper {
+        flex-direction: column;
+    }
+
+    .download {
+        margin-top: 40px;
+        width: 80%;
+    }
+
+    .download.two, .download.three {
+        margin-top: 40px;
+    }
+
+    .download-dots {
+        width: 230px;
+    }
+
+    .download button {
+        font-size: 12px;
+    }
+}

@@ -75,3 +75,25 @@
 .faq:hover .faq-header {
     color: var(--primary-color-red);
 }
+
+@media screen and (max-width: 760px) {
+    .faq-header-container {
+        width: 80%;
+    }
+
+    .faq-header-container h1 {
+        font-size: 20px;
+    }
+
+    .faq-header-container p {
+        font-size: clamp(12px, 3.8vw, 16px);
+    }
+
+    .faq-container {
+        width: 80%;
+    }
+
+    .faq-header {
+        font-size: 14px;
+    }
+}

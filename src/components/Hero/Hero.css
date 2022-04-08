@@ -80,3 +80,52 @@
     top: -80px;
     left: -150px;
 }
+
+@media screen and (max-width: 768px) {
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+    
+    .hero-image-wrapper {
+        height: 400px;
+        width: 600px;
+        position: relative;
+        top: 75px;
+        border-top-left-radius: 45%;
+        border-bottom-left-radius: 45%;
+        background-color: var(--primary-color-blue);
+    }
+    
+    .hero-image-wrapper img {
+        position: relative;
+        top: -80px;
+        left: -150px;
+    }
+
+    .hero-info {
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero-info h1 {
+        font-size: 26px;
+    }
+
+    .hero-info p {
+        font-size: clamp(12px, 4vw, 16px);
+    }
+
+    .hero-info-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-button-primary, .hero-button-secondary {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
