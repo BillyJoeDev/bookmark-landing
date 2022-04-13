@@ -13,7 +13,8 @@ const Hero = () => {
             </div>
         </div>
         <div className='hero-image-wrapper'>
-            <img src='images/illustration-hero.svg' />
+          <div className='hero-bullet-background' />
+          <img src='images/illustration-hero.svg' />
         </div>
     </header>
   )

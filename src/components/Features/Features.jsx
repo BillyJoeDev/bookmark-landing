@@ -34,6 +34,7 @@ const Features = () => {
         </div>
         <div className='features-section-info'>
           <div className='features-section-image-wrapper'>
+            <div className='features-section-bullet' />
             <img src={features[featureIndex].image} />
           </div>
           <div className='features-section-content'>
