@@ -147,17 +147,6 @@
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1024px) {
-    .hero-image-wrapper img 
-    {
-        width: 400px;
-    }
-
-    .hero-info {
-        margin-right: 53px;
-    }
-}
-
 @media screen and (min-width: 600px) and (max-width: 800px)  {
     .hero-image-wrapper img 
     {
