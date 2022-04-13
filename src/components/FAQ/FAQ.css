@@ -77,6 +77,10 @@
 }
 
 @media screen and (max-width: 760px) {
+    .faq-wrapper {
+        margin-top: 100px;
+    }
+    
     .faq-header-container {
         width: 80%;
     }

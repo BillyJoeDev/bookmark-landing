@@ -26,6 +26,7 @@
     flex-direction: row;
     align-items: flex-start;
     margin-top: 20px;
+    width: 100%;
 }
 
 .contact-container input {
@@ -63,10 +64,44 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .contact-error-container i {
     margin-top: -23px;
     margin-left: 10px;
     font-size: 13px;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .contact-wrapper {
+        margin-top: 100px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-header {
+        width: 100%;
+        font-size: clamp(16px, 1.5rem, 30px);
+    }
+
+    .contact-container input 
+    {   
+        padding: 18px 60px 18px 20px;
+        margin-bottom: 15px;
+    }
+    
+    .contact-container button 
+    {
+        font-size: 14px;
+        padding: 14px;
+        width: 100%;
+        margin-left: 0;
+    }
+    
 }
