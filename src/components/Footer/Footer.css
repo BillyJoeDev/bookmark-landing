@@ -52,7 +52,7 @@
     color: var(--primary-color-red);
 }
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 990px) 
 {
     .footer-wrapper {
         flex-direction: column;

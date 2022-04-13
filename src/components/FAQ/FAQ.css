@@ -76,7 +76,7 @@
     color: var(--primary-color-red);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 800px) {
     .faq-wrapper {
         margin-top: 100px;
     }
@@ -99,5 +99,15 @@
 
     .faq-header {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .faq-header-container {
+        width: 50%;
+    }
+
+    .faq-container {
+        width: 40%;
     }
 }

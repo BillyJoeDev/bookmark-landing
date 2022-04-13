@@ -7,10 +7,6 @@
     margin-bottom: 40px;
 }
 
-.navbar-wrapper img {
-    margin-right: 581px;
-}
-
 .mobile-nav {
     display: none;
 }
@@ -57,6 +53,10 @@
     background-color: transparent;
 }
 
+.navbar-wrapper img {
+    margin-right: clamp(30px, 40vw, 550px);
+}
+
 @media screen and (max-width: 768px) 
 {
     .mobile-nav {
@@ -68,6 +68,6 @@
     }
 
     .navbar-wrapper img {
-        margin-right: 0;
+        margin-right: clamp(30px, 35vw, 500px);
     }
 }
