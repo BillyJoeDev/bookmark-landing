@@ -100,9 +100,10 @@
     color: var(--neutral-color-blue);
     padding: 20px 0 30px 0;
     filter: brightness(5%);
+    width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .download-wrapper {
         margin-top: 100px;
     }
@@ -139,4 +140,9 @@
     .download button {
         font-size: 12px;
     }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1320px) 
+{
+
 }

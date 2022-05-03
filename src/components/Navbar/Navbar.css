@@ -53,10 +53,6 @@
     background-color: transparent;
 }
 
-.navbar-wrapper img {
-    margin-right: clamp(30px, 40vw, 550px);
-}
-
 @media screen and (max-width: 768px) 
 {
     .mobile-nav {

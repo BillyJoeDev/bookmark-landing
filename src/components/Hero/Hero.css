@@ -85,7 +85,7 @@
     margin-right: 100px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1245px) {
     .hero-wrapper {
         display: flex;
         flex-direction: column-reverse;
@@ -147,7 +147,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 800px)  {
+@media screen and (min-width: 600px) and (max-width: 1000px)  {
     .hero-image-wrapper img 
     {
         width: 400px;
