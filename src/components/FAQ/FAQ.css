@@ -35,10 +35,15 @@
 .faq {
     cursor: pointer;
     display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(190, 190, 190, 0.9);
+}
+
+.faq-heading {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgba(190, 190, 190, 0.9);
 }
 
 .faq-header {
@@ -48,10 +53,26 @@
     color: var(--neutral-color-blue);
 }
 
+.faq p {
+    display: none;
+    font-size: 15px;
+    color: var(--neutral-color-grey);
+    line-height: 28px;
+}
+
+.faq.open p {
+    display: block;
+}
+
 .faq img {
     margin-right: 15px;
     width: 15px;
     height: 10px;
+}
+
+.faq.open img {
+    color: var(--primary-color-red);
+    transform: rotate(180deg);
 }
 
 .faq-wrapper button {
