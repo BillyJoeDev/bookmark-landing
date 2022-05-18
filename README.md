@@ -30,12 +30,11 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Bookmark Landing Page]()
-- Live Site URL (hosted on Heroku - may load slow): [Bookmark Landing Page]()
+- Live Site URL (hosted on Heroku - may load slow): [Bookmark Landing Page](https://bookmarklandingp.netlify.app/)
 
 ## My process
 
-
+I started off matching the design off the refrence, then worked on functionality and then headed into the responsiveness. 
 
 ### Built with
 
@@ -45,3 +44,5 @@ Your users should be able to:
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
+
+I learned how to do overlapping layers and working on responsivness with them.
