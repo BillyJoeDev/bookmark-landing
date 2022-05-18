@@ -100,7 +100,7 @@
     
     .hero-image-wrapper img 
     {
-        width: 300px;
+        width: 475px;
         margin: 0;
         margin-bottom: -180px;
         margin-left: -68px;
@@ -147,7 +147,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1000px)  {
+@media screen and (min-width: 375px) and (max-width: 1000px)  {
     .hero-image-wrapper img 
     {
         width: 400px;
@@ -159,7 +159,7 @@
 }
 
 
-@media screen and (max-width: 375px) 
+@media screen and (max-width: 375px)
 { 
     .hero-image-wrapper img 
     {
