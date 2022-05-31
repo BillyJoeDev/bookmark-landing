@@ -77,12 +77,14 @@
     border-top-left-radius: 40%;
     border-bottom-left-radius: 40%;
     background-color: var(--primary-color-blue);
+    z-index: 0;
 }
 
 .hero-image-wrapper img 
 {
     margin-bottom: -300px;
     margin-right: 100px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1245px) {

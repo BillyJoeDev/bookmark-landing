@@ -73,12 +73,14 @@
     border-top-right-radius: 35%;
     border-bottom-right-radius: 35%;
     background-color: var(--primary-color-blue);
+    z-index: 0;
 }
 
 .features-section-image-wrapper img 
 {
     margin-bottom: -250px;
     margin-left: 250px;
+    z-index: 1;
 }
 
 .features-section-content {
