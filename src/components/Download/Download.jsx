@@ -10,24 +10,24 @@ const Download = () => {
         </div>
         <div className='downloads-wrapper'>
             <div className='download'>
-                <img src='images/logo-chrome.svg' className='download-logo' />
+                <img src='images/logo-chrome.svg' className='download-logo' alt="Chrome Logo" />
                 <h1>Add to Chrome</h1>
                 <p>Minimum version 62</p>
-                <img src='images/bg-dots.svg' className='download-dots' />
+                <img src='images/bg-dots.svg' className='download-dots' alt="" />
                 <button>Add & Install Extension</button>
             </div>
             <div className='download two'>
-                <img src='images/logo-firefox.svg' className='download-logo' />
+                <img src='images/logo-firefox.svg' className='download-logo' alt="Firefox Logo" />
                 <h1>Add to Firefox</h1>
                 <p>Minimum version 55</p>
-                <img src='images/bg-dots.svg' className='download-dots' />
+                <img src='images/bg-dots.svg' className='download-dots' alt="" />
                 <button>Add & Install Extension</button>
             </div>
             <div className='download three'>
-                <img src='images/logo-opera.svg' className='download-logo' />
+                <img src='images/logo-opera.svg' className='download-logo' alt="Opera Logo" />
                 <h1>Add to Opera</h1>
                 <p>Minimum version 46</p>
-                <img src='images/bg-dots.svg' className='download-dots' />
+                <img src='images/bg-dots.svg' className='download-dots' alt="" />
                 <button>Add & Install Extension</button>
             </div>
         </div>

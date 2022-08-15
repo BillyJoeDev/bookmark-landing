@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer className='footer-wrapper'>
         <ul className='footer-links'>
-            <img src='images/logo-bookmark-white.svg' /> 
-            <li>FEATURES</li>
-            <li>PRICING</li>
-            <li>CONTACT</li>
+          <img src='images/logo-bookmark-white.svg' alt="" /> 
+          <li>FEATURES</li>
+          <li>PRICING</li>
+          <li>CONTACT</li>
         </ul>
         <div className='footer-social'>
             <FaFacebookSquare className='social-icon' /> 

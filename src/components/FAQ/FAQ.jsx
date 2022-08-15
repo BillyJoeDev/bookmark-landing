@@ -52,7 +52,7 @@ const FAQ = () => {
                 <div className={faq.open ? 'faq open' : 'faq'} onClick={() => handleFaq(faq.index)}>
                     <div className='faq-heading'>
                         <h1 className='faq-header'>{faq.question}</h1>
-                        <img src='images/icon-arrow.svg' />
+                        <img src='images/icon-arrow.svg' alt="" />
                     </div>
                     <p>{faq.awnser}</p>
                 </div>
